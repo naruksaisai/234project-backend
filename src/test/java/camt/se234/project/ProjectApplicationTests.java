@@ -30,8 +30,9 @@ public class ProjectApplicationTests {
     ProductRepository productRepository;
     @Autowired
     SaleOrderService saleOrderService;
+
     @Test
-    public void testAddTransaction(){
+    public void testAddTransaction() {
         SaleOrder order = SaleOrder.builder()
                 .saleOrderId("O001")
                 .build();
@@ -48,7 +49,7 @@ public class ProjectApplicationTests {
                 .build());
         order.setTransactions(transactions);
         SaleOrder result = saleOrderService.addSaleOrder(order);
-        assertThat(result.getId(),is(notNullValue()));
+        assertThat(result.getId(), is(notNullValue()));
 
     }
 }

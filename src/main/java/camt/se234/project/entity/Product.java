@@ -20,6 +20,7 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
 
+
     public Product(String productId) {
         this.productId = productId;
     }

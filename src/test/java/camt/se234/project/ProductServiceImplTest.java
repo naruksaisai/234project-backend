@@ -28,7 +28,7 @@ public class ProductServiceImplTest {
     }
 
     @Test
-    public void testProductService(){
+    public void testGetAllProductService(){
 //        productDao = mock(ProductDao.class);
 //        productService = new ProductServiceImpl();
 //        productService.setProductDao(productDao);

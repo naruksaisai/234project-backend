@@ -38,8 +38,7 @@ public class SaleOrderServiceImpl implements SaleOrderService {
     public double getAverageSaleOrderPrice() {
         List<SaleOrder> orders = orderDao.getOrders();
         double totalPrice = 0;
-        for (SaleOrder order :
-                orders) {
+        for (SaleOrder order : orders) {
             totalPrice += order.getTotalPrice();
         }
         return totalPrice/orders.size();

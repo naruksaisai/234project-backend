@@ -29,9 +29,11 @@ public class AuthenticationServiceImplTest {
         authenticationService = new AuthenticationServiceImpl();
         authenticationService.setUserDao(userDao);
         List<User> mockUser = new ArrayList<>();
-        mockUser.add(new User("nongjoy","2345","Support"));
-        mockUser.add(new User("nonguboa","2345","carry"));
-        when(userDao.getUser("nongjoy","2345")).thenReturn(new User("nongjoy","2345","Support"));
-        when(userDao.getUser("nonguboa","2345")).thenReturn(new User("nongjoy","2345","carry"));
+        mockUser.add(new User("nongjoy","2345","buyer"));
+        mockUser.add(new User("nonguboa","2345","seller"));
+        when(userDao.getUser("nongjoy","2345")).thenReturn(new User("nongjoy","2345","buyer"));
+        when(userDao.getUser("nonguboa","2345")).thenReturn(new User("nongjoy","2345","seller"));
+        when(userDao.getUser("nonguboa","2345")).thenReturn(new User("seller"));
+
     }
 }

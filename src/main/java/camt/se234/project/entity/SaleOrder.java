@@ -20,6 +20,35 @@ public class SaleOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
+
+    public SaleOrder(String saleOrderId, List<SaleTransaction> transactions) {
+        this.saleOrderId = saleOrderId;
+        this.transactions = transactions;
+    }
+    public SaleOrder(String saleOrderId){
+        this.saleOrderId = saleOrderId;
+    }
+
+    public SaleOrder (List<SaleTransaction> transactions){
+        this.transactions = transactions;
+    }
+
+    public String getSaleOrderId() {
+        return saleOrderId;
+    }
+
+    public void setSaleOrderId(String saleOrderId) {
+        this.saleOrderId = saleOrderId;
+    }
+
+    public List<SaleTransaction> getTransactions() {
+        return transactions;
+    }
+
+    public void setTransactions(List<SaleTransaction> transactions) {
+        this.transactions = transactions;
+    }
+
     String saleOrderId;
     @Builder.Default
     @OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL)

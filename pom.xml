@@ -114,7 +114,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>project</finalName>
+        <finalName>backend</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

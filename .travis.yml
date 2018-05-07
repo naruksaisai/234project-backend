@@ -9,8 +9,8 @@ before_install:
 install:
 - mvn install -Dmaven.javadoc.skip=true -B -V
 - ls -l
-- docker build --build-arg JAR_FILE=/target/myname.jar -t naruksaisai/234project-backend  .
-- docker push naruksaisai/234project-backend
+- docker build --build-arg JAR_FILE=/target/myname.jar -t saksit32/234project-backend  .
+- docker push saksit32/234project-backend
 - docker pull dto80/project234-frontend
 
 cache:

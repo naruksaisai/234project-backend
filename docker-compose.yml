@@ -1,14 +1,14 @@
 version: '3.3'
 services:
   backend:
-    image: dto80/234-lab11:latest
+    image: saksit32/234project-backend:latest
     ports:
       - "8086:8080"
   frontend:
-    image: naruksaisai/234project-backend:latest
+    image: dto80/project234-frontend:latest
     ports:
       - "8087:80"
     volumes:
         type: bind
-        source: .//234project-backend
+        source: ./234project-backend
         target: /usr/share/nginx/html/assets 

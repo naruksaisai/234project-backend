@@ -13,8 +13,6 @@ install:
 - docker push naruksaisai/234project-backend
 - docker pull naruksaisai/dto80/project234-frontend
 
-script:
-- docker-compose -H "tcp://18.188.77.27:2345" up -d
 cache:
   directories:
   - "$HOME/.m2"

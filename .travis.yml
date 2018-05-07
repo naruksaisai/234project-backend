@@ -9,9 +9,9 @@ before_install:
 install:
 - mvn install -Dmaven.javadoc.skip=true -B -V
 - ls -l
-- docker build --build-arg JAR_FILE=/target/backend.jar -t meandthefirefly/234-lab11  .
-- docker push meandthefirefly/234-lab11
-- docker pull meandthefirefly/lab234-lab11-frontend
+- docker build --build-arg JAR_FILE=/target/backend.jar -t naruksaisai/234-lab11  .
+- docker push naruksaisai/234project-backend
+- docker pull naruksaisai/dto80/project234-frontend
 
 script:
 - docker-compose -H "$DOCKER_HOST" up -d

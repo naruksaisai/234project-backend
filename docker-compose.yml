@@ -5,10 +5,10 @@ services:
     ports:
       - "8086:8080"
   frontend:
-    image: meandthefirefly/lab234-lab11-frontend:latest
+    image: naruksaisai/234project-backend:latest
     ports:
       - "8087:80"
     volumes:
         type: bind
-        source: ./project234
+        source: .//234project-backend
         target: /usr/share/nginx/html/assets 

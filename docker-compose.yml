@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/234-lab11:latest
+    ports:
+      - "8084:8080"
+  frontend:
+    image: meandthefirefly/lab234-lab11-frontend:latest
+    ports:
+      - "8085:80"
+

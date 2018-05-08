@@ -29,9 +29,6 @@ public class ProductServiceImplTest {
 
     @Test
     public void testGetAllProductService(){
-//        productDao = mock(ProductDao.class);
-//        productService = new ProductServiceImpl();
-//        productService.setProductDao(productDao);
         List<Product> mockProduct = new ArrayList<>();
         mockProduct.add(new Product("101","Apple"," "," ",20));
         mockProduct.add(new Product("102","Banana"," "," ",30.00));

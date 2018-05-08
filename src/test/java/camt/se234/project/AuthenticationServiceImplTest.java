@@ -25,15 +25,14 @@ public class AuthenticationServiceImplTest {
 
     @Test
     public void testAuthenticate() {
-        userDao = mock(UserDao.class);
-        authenticationService = new AuthenticationServiceImpl();
-        authenticationService.setUserDao(userDao);
         List<User> mockUser = new ArrayList<>();
         mockUser.add(new User("nongjoy","2345","buyer"));
         mockUser.add(new User("nonguboa","2345","seller"));
+        mockUser.add(new User("admin","admin","admin"));
         when(userDao.getUser("nongjoy","2345")).thenReturn(new User("nongjoy","2345","buyer"));
         when(userDao.getUser("nonguboa","2345")).thenReturn(new User("nongjoy","2345","seller"));
         when(userDao.getUser("nonguboa","2345")).thenReturn(new User("seller"));
+        when(userDao.getUser("admin","admin")).thenReturn(new User("admin"));
 
     }
 }

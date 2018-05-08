@@ -37,14 +37,20 @@ public class SaleOrderServiceTest {
                 new SaleOrder("S001", saleTransactions1),
                 new Product("P001", "Meat", "xxx", "xxx", 100.00), 10));
         saleTransactions1.add(new SaleTransaction("T002",
-                new SaleOrder("S001", saleTransactions1),
+                new SaleOrder("A001", saleTransactions1),
                 new Product("P002", "Donut", "xxx", "xxx", 100.00), 5));
+        saleTransactions1.add(new SaleTransaction("T003",
+                new SaleOrder("W001", saleTransactions1),
+                new Product("P003", "Banana", "xxx", "xxx", 300.00), 5));
         mockOrders.add(new SaleOrder("S001", saleTransactions1));
-        mockOrders.add(new SaleOrder("T002", saleTransactions1));
+        mockOrders.add(new SaleOrder("A001", saleTransactions1));
+        mockOrders.add(new SaleOrder("W001", saleTransactions1));
         when(saleOrderService.getSaleOrders()).thenReturn(mockOrders);
 //        assertThat(saleOrderService.getSaleOrders(),hasItem("S001", saleTransactions1, new Product("P001", "Meat", "xxx", "xxx", 100.00), 10);
         assertThat(saleOrderService.getSaleOrders(),hasItem(new SaleOrder("S001", saleTransactions1)));
-        assertThat(saleOrderService.getSaleOrders(),hasItems(new SaleOrder("S001", saleTransactions1),new SaleOrder("T002", saleTransactions1)));
+        assertThat(saleOrderService.getSaleOrders(),hasItems(new SaleOrder("S001", saleTransactions1),
+                new SaleOrder("A001", saleTransactions1),
+                new SaleOrder("W001", saleTransactions1)));
     }
     @Test
     public void testGetAverageSaleOrderPrice(){
@@ -56,10 +62,15 @@ public class SaleOrderServiceTest {
         saleTransactions1.add(new SaleTransaction("T002",
                 new SaleOrder("S001", saleTransactions1),
                 new Product("P002", "Donut", "xxx", "xxx", 100.00), 30));
+        saleTransactions1.add(new SaleTransaction("T003",
+                new SaleOrder("S001", saleTransactions1),
+                new Product("P001", "Mango", "xxx", "xxx", 100.00), 20));
+        
         mockOrders.add(new SaleOrder("S001", saleTransactions1));
         mockOrders.add(new SaleOrder("T002", saleTransactions1));
+        mockOrders.add(new SaleOrder("T003", saleTransactions1));
         when(saleOrderService.getSaleOrders()).thenReturn(mockOrders);
-        assertThat(saleOrderService.getAverageSaleOrderPrice(),is(4000.0));
+        assertThat(saleOrderService.getAverageSaleOrderPrice(),is(6000.0));
     }
 
 }

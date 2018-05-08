@@ -28,9 +28,9 @@ WebUI.setText(findTestObject('Login user/Page_ProjectBackend/input_password'), '
 
 WebUI.click(findTestObject('Login user/Page_ProjectBackend/button_Login'))
 
-WebUI.click(findTestObject('Login user/Page_ProjectBackend/a_Products'))
+WebUI.verifyElementText(findTestObject('Login user/Page_ProjectBackend/a_Products'), 'Products')
 
-WebUI.click(findTestObject('Login user/Page_ProjectBackend/a_Carts'))
+WebUI.verifyElementText(findTestObject('Login user/Page_ProjectBackend/a_Carts'), 'Carts')
 
 WebUI.closeBrowser()
 

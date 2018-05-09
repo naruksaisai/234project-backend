@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>UserData</name>
+   <name>Username list</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>22dd9904-1ba5-403c-8e93-ea472f889c07</dataFileGUID>
+   <dataFileGUID>17237156-4377-4dbe-bfe0-e1cb77748af1</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>user user</data>
-   <data>admin admin</data>
+   <data>fghj null</data>
+   <data>fghjkl null</data>
+   <data>hnm%2C null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

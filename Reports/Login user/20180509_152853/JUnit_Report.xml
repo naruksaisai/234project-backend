@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login user" time="70" tests="3" failures="0" errors="0">
+   <testsuite name="Login user" tests="3" failures="0" errors="0" time="70" timestamp="2018-05-09 15:28:55" hostname="If - DESKTOP-ESPG549" id="Test Suites/Login user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_152853"/>
+         <property name="logFiles" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_152853\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="If - DESKTOP-ESPG549"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="169.254.218.248"/>
+         <property name="sessionId" value="0c6eaa7fa903a2c77f5156b6769174af"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User require password" classname="Test Cases/User require password" status="PASSED">
+         <system-out><![CDATA[2018-05-09 15:28:56 - [TEST_CASE][PASSED] - Test Cases/User require password: Test Cases/User require password
+
+2018-05-09 15:28:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:29:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:29:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 15:29:15 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 15:29:15 - [TEST_STEP][PASSED] - setText: Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 15:29:16 - [MESSAGE][PASSED] - Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 15:29:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 15:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 15:29:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-09 15:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-09 15:29:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 15:29:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 15:29:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 15:29:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User require password" classname="Test Cases/User require password" status="PASSED">
+         <system-out><![CDATA[2018-05-09 15:29:17 - [TEST_CASE][PASSED] - Test Cases/User require password: Test Cases/User require password
+
+2018-05-09 15:29:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:29:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:29:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 15:29:37 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 15:29:37 - [TEST_STEP][PASSED] - setText: Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 15:29:38 - [MESSAGE][PASSED] - Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 15:29:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 15:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 15:29:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-09 15:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-09 15:29:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 15:29:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 15:29:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 15:29:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User require password" classname="Test Cases/User require password" status="PASSED">
+         <system-out><![CDATA[2018-05-09 15:29:40 - [TEST_CASE][PASSED] - Test Cases/User require password: Test Cases/User require password
+
+2018-05-09 15:29:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:29:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:29:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 15:30:04 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 15:30:04 - [TEST_STEP][PASSED] - setText: Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 15:30:04 - [MESSAGE][PASSED] - Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 15:30:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 15:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 15:30:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-09 15:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' is clicked on
+
+2018-05-09 15:30:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 15:30:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 15:30:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 15:30:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 15:28:55 - [TEST_SUITE][PASSED] - Login user: Test Cases/User require password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User require username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2110ded3-9aae-4d01-bf93-277f6e83ae92</testCaseGuid>
+   <variable>
+      <defaultValue>'username'</defaultValue>
+      <description></description>
+      <id>627c7a7b-2b3c-43a3-b04b-1adfd9db6365</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>8d216211-a8da-4297-bd82-61f69ab93954</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

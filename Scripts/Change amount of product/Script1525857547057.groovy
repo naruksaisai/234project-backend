@@ -24,11 +24,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.77.27:8087/')
 
-WebUI.setText(findTestObject('User require password/Page_ProjectBackend/input_username'), 'sdfg')
+WebUI.setText(findTestObject('Change amount of product/Page_ProjectBackend/input_username'), 'user')
 
-WebUI.click(findTestObject('User require password/Page_ProjectBackend/button_Login'))
+WebUI.setText(findTestObject('Change amount of product/Page_ProjectBackend/input_password'), 'user')
 
-WebUI.verifyElementText(findTestObject('User require password/Page_ProjectBackend/label_Password is required'), 'Password is required')
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/button_Login'))
+
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/button_add to cart'))
+
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/a_Carts            1'))
+
+WebUI.setText(findTestObject('Change amount of product/Page_ProjectBackend/input_amount'), '3')
+
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/button_confirm'))
+
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/div_Well done You successfully'))
 
 WebUI.closeBrowser()
 

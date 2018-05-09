@@ -24,11 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.77.27:8087/')
 
-WebUI.setText(findTestObject('User require password/Page_ProjectBackend/input_username'), 'sdfg')
+WebUI.setText(findTestObject('User reqire username/Page_ProjectBackend/input_password'), 'user')
 
-WebUI.click(findTestObject('User require password/Page_ProjectBackend/button_Login'))
+WebUI.click(findTestObject('User reqire username/Page_ProjectBackend/button_Login'))
 
-WebUI.verifyElementText(findTestObject('User require password/Page_ProjectBackend/label_Password is required'), 'Password is required')
+WebUI.click(findTestObject('User reqire username/Page_ProjectBackend/label_Username is required'))
+
+WebUI.verifyElementText(findTestObject('User reqire username/Page_ProjectBackend/label_Username is required'), 'Username is required')
 
 WebUI.closeBrowser()
 

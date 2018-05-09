@@ -20,3 +20,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://18.188.77.27:8087/')
+
+WebUI.setText(findTestObject('Change amount of product/Page_ProjectBackend/input_username'), username)
+
+WebUI.setText(findTestObject('Change amount of product/Page_ProjectBackend/input_password'), password)
+
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/button_Login'))
+
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/button_add to cart'))
+
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/a_Carts            1'))
+
+WebUI.setText(findTestObject('Change amount of product/Page_ProjectBackend/input_amount'), amount)
+
+WebUI.click(findTestObject('Change amount of product/Page_ProjectBackend/button_confirm'))
+
+WebUI.acceptAlert()
+
+WebUI.verifyElementText(findTestObject('Change amount of product/Page_ProjectBackend/div_Well done You successfully'), 'Well done! You successfully added the transaction.')
+
+WebUI.closeBrowser()
+

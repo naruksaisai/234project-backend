@@ -4,7 +4,7 @@
    <name>Login user</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T16:07:28</lastRun>
+   <lastRun>2018-05-09T17:33:26</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -126,13 +126,49 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fdb445c5-bb74-47f0-bb15-b46f93e096e1</guid>
+      <guid>c00b17ab-599d-4668-bf52-c11a607d874d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Logout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>908c2d35-3367-4f7a-95da-a5d3e46054c4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Admin login</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eb86065f-acf1-4619-a60a-61172b4a19e5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>908c2d35-3367-4f7a-95da-a5d3e46054c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>f8efc8fa-e468-4573-8c18-489437b17684</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>908c2d35-3367-4f7a-95da-a5d3e46054c4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c1cb757d-a9f6-4649-a351-03c53bc4d665</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f32a279-fe39-4ffd-9b04-9e7f687c809e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Change amount of product</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>c9e33b14-08dd-4bec-8aff-58ae188e2490</id>
+         <id>3336bde4-72fb-41bf-a937-8460e22773c9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -141,7 +177,16 @@
       </testDataLink>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>462a68a3-0c43-4af5-b8ef-8e55216f3872</id>
+         <id>c8275a12-ee06-412f-aafb-17270ea82809</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Admin login</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9d55f6c6-7dd2-4aa9-8eeb-846da299448b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -149,22 +194,49 @@
          <testDataId>Data Files/amount</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>c9e33b14-08dd-4bec-8aff-58ae188e2490</testDataLinkId>
+         <testDataLinkId>3336bde4-72fb-41bf-a937-8460e22773c9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>87428376-3fd9-44a4-85c4-e1cb48f35aa2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c9e33b14-08dd-4bec-8aff-58ae188e2490</testDataLinkId>
+         <testDataLinkId>3336bde4-72fb-41bf-a937-8460e22773c9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>f775016f-6c05-4629-9cf2-cb8351107e28</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>462a68a3-0c43-4af5-b8ef-8e55216f3872</testDataLinkId>
+         <testDataLinkId>9d55f6c6-7dd2-4aa9-8eeb-846da299448b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>amount</value>
          <variableId>63b94dc9-999c-4609-946a-14b9eedd71c3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3dfbe43b-4f48-410a-ab14-d1f58cbb6383</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add items</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>94226c31-669a-44e6-b90f-9979672e4db5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>94226c31-669a-44e6-b90f-9979672e4db5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>7885063b-b7df-417d-997e-25248b8a304f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>94226c31-669a-44e6-b90f-9979672e4db5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ef1e5eb0-9f91-4520-ab32-99ca4bde1b1f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

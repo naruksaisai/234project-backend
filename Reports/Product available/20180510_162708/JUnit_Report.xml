@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product available" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="Product available" tests="1" failures="0" errors="0" time="12" timestamp="2018-05-10 16:27:14" hostname="If - DESKTOP-ESPG549" id="Test Suites/Product available">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Product available\\20180510_162708"/>
+         <property name="logFiles" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Product available\\20180510_162708\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="If - DESKTOP-ESPG549"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="169.254.218.248"/>
+         <property name="sessionId" value="e8d63bfad1cf2e4c44214781876c43fa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Product available" classname="Test Cases/Product available" status="PASSED">
+         <system-out><![CDATA[2018-05-10 16:27:14 - [TEST_CASE][PASSED] - Test Cases/Product available: Test Cases/Product available
+
+2018-05-10 16:27:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 16:27:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 16:27:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-10 16:27:23 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-10 16:27:23 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Product available/Page_ProjectBackend/input_username'
+
+2018-05-10 16:27:24 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Product available/Page_ProjectBackend/input_username'
+
+2018-05-10 16:27:24 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Product available/Page_ProjectBackend/input_password'
+
+2018-05-10 16:27:24 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Product available/Page_ProjectBackend/input_password'
+
+2018-05-10 16:27:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Product available/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 16:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Product available/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 16:27:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-10 16:27:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are matched.
+
+2018-05-10 16:27:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Product available/Page_ProjectBackend/p_The garden which you can gro' are matched.
+
+2018-05-10 16:27:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product available/Page_ProjectBackend/p_The garden which you can gro' are matched.
+
+2018-05-10 16:27:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-10 16:27:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 16:27:14 - [TEST_SUITE][PASSED] - Product available: Test Cases/Product available]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

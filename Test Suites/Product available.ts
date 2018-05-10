@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Product available</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-10T16:27:37</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>72c26dab-2d9a-4741-9801-fec342a7603b</testSuiteGuid>
+   <testCaseLink>
+      <guid>574fce8d-016d-4a48-bae9-c661fdd2f4d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product available</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0797e570-7410-4416-91ef-0ba7a15bb000</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User login</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>336b5cfb-6596-4f52-af55-4c9ba9c366c6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Product available</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0797e570-7410-4416-91ef-0ba7a15bb000</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>1e0e641d-40be-4b53-9633-4b943bbf5fb3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0797e570-7410-4416-91ef-0ba7a15bb000</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>89da3081-d1dd-401d-ba5f-34177544d863</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>336b5cfb-6596-4f52-af55-4c9ba9c366c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>type</value>
+         <variableId>05a9b8ab-031b-4146-8c09-d19162599e71</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>336b5cfb-6596-4f52-af55-4c9ba9c366c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>4ea99def-a1bb-436b-909e-7c52b26b51c0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

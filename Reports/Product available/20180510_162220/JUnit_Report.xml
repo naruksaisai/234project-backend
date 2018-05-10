@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product available" time="14" tests="0" failures="1" errors="0">
+   <testsuite name="Product available" tests="0" failures="1" errors="0" time="14" timestamp="2018-05-10 16:22:26" hostname="If - DESKTOP-ESPG549" id="Test Suites/Product available">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Product available\\20180510_162220"/>
+         <property name="logFiles" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Product available\\20180510_162220\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Product available\\20180510_162220\\1525944160917.png, C:\\Users\\If\\git\\234project-backend\\Reports\\Product available\\20180510_162220\\1525944161053.png"/>
+         <property name="hostName" value="If - DESKTOP-ESPG549"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="169.254.218.248"/>
+         <property name="sessionId" value="882c3314-eb53-4ca3-a398-05845d71b92a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Product available" classname="Test Cases/Product available" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '' of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-10 16:22:27 - [TEST_CASE][FAILED] - Test Cases/Product available: Test Cases/Product available FAILED because (of) Verify element text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '' of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-10 16:22:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 16:22:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 16:22:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-10 16:22:38 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-10 16:22:38 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Product available/Page_ProjectBackend/input_username'
+
+2018-05-10 16:22:38 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Product available/Page_ProjectBackend/input_username'
+
+2018-05-10 16:22:38 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Product available/Page_ProjectBackend/input_password'
+
+2018-05-10 16:22:39 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Product available/Page_ProjectBackend/input_password'
+
+2018-05-10 16:22:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Product available/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 16:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Product available/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-10 16:22:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' is clicked on
+
+2018-05-10 16:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' is clicked on
+
+2018-05-10 16:22:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Product available/Page_ProjectBackend/p_The garden which you can gro' is clicked on
+
+2018-05-10 16:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Product available/Page_ProjectBackend/p_The garden which you can gro' is clicked on
+
+2018-05-10 16:22:40 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '' of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are NOT matched.)
+
+2018-05-10 16:22:41 - [MESSAGE][FAILED] - Actual text 'Garden' and expected text '' of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are NOT matched.
+[[ATTACHMENT|C:\\Users\\If\\git\\234project-backend\\Reports\\Product available\\20180510_162220\\1525944160917.png]]
+
+2018-05-10 16:22:41 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '' of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\If\\git\\234project-backend\\Reports\\Product available\\20180510_162220\\1525944161053.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 16:22:27 - [TEST_CASE][FAILED] - Test Cases/Product available: Test Cases/Product available FAILED because (of) Verify element text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '' of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 16:22:26 - [TEST_SUITE][FAILED] - Product available: Test Cases/Product available FAILED because (of) Verify element text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '' of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-05-10 16:22:26 - [TEST_SUITE][FAILED] - Product available: Test Cases/Product available FAILED because (of) Verify element text of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' FAILED. (Root cause: Actual text 'Garden' and expected text '' of test object 'Object Repository/Product available/Page_ProjectBackend/h5_Garden' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

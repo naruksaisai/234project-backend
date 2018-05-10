@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Password list</name>
+   <name>Product available</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>5d8dfa12-ee7c-4497-85cf-17a76484338e</dataFileGUID>
+   <dataFileGUID>c4a92097-6dde-4314-beb4-0305e919b25b</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>null tttt</data>
-   <data>user user</data>
-   <data>null ytyty</data>
-   <data>null 88jj</data>
+   <data>Garden The+garden+which+you+can+grow+everything+on+earth</data>
+   <data>Banana A+good+fruit+with+very+cheap+price</data>
+   <data>Orange Nothing+good+about+it</data>
+   <data>Papaya Use+for+papaya+salad</data>
+   <data>Rambutan An+expensive+fruit+from+the+sout</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>username</name>
-      <size>4</size>
+      <name>type</name>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>password</name>
-      <size>4</size>
+      <name>description</name>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

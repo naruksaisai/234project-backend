@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://18.188.77.27:8087/')
 
-WebUI.setText(findTestObject('Total Transaction/Page_ProjectBackend/input_username'), 'admin')
+WebUI.setText(findTestObject('Total Transaction/Page_ProjectBackend/input_username'), username)
 
-WebUI.setText(findTestObject('Total Transaction/Page_ProjectBackend/input_password'), 'admin')
+WebUI.setText(findTestObject('Total Transaction/Page_ProjectBackend/input_password'), password)
 
 WebUI.click(findTestObject('Total Transaction/Page_ProjectBackend/button_Login'))
 

@@ -32,8 +32,6 @@ WebUI.click(findTestObject('Logout/Page_ProjectBackend/button_Login'))
 
 WebUI.click(findTestObject('Logout/Page_ProjectBackend/button_Logout'))
 
-WebUI.click(findTestObject('Logout/Page_ProjectBackend/button_Login'))
-
 WebUI.verifyElementText(findTestObject('Logout/Page_ProjectBackend/button_Login'), 'Login')
 
 WebUI.closeBrowser()

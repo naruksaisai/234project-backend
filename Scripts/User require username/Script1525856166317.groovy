@@ -28,8 +28,6 @@ WebUI.setText(findTestObject('User reqire username/Page_ProjectBackend/input_pas
 
 WebUI.click(findTestObject('User reqire username/Page_ProjectBackend/button_Login'))
 
-WebUI.click(findTestObject('User reqire username/Page_ProjectBackend/label_Username is required'))
-
 WebUI.verifyElementText(findTestObject('User reqire username/Page_ProjectBackend/label_Username is required'), 'Username is required')
 
 WebUI.closeBrowser()

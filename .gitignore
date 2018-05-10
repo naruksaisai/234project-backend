@@ -29,3 +29,8 @@ nbdist/
 
 **/~*
 #logfile
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/

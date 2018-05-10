@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login user" time="255" tests="6" failures="3" errors="0">
+   <testsuite name="Login user" tests="6" failures="3" errors="0" time="255" timestamp="2018-05-09 16:07:30" hostname="If - DESKTOP-ESPG549" id="Test Suites/Login user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_160728"/>
+         <property name="logFiles" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_160728\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_160728\\1525857033258.png, C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_160728\\1525857069200.png, C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_160728\\1525857104727.png"/>
+         <property name="hostName" value="If - DESKTOP-ESPG549"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="169.254.218.248"/>
+         <property name="sessionId" value="b833aa4db10e1ff78667ec70aa6dfc6b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User require password" classname="Test Cases/User require password" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:07:31 - [TEST_CASE][PASSED] - Test Cases/User require password: Test Cases/User require password
+
+2018-05-09 16:07:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:07:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:07:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:07:56 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:07:56 - [TEST_STEP][PASSED] - setText: Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 16:07:56 - [MESSAGE][PASSED] - Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 16:07:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:07:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 16:07:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 16:07:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:07:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User require password" classname="Test Cases/User require password" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:07:57 - [TEST_CASE][PASSED] - Test Cases/User require password: Test Cases/User require password
+
+2018-05-09 16:07:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:08:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:08:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:08:24 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:08:24 - [TEST_STEP][PASSED] - setText: Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 16:08:24 - [MESSAGE][PASSED] - Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 16:08:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:08:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 16:08:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 16:08:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:08:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User require password" classname="Test Cases/User require password" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:08:25 - [TEST_CASE][PASSED] - Test Cases/User require password: Test Cases/User require password
+
+2018-05-09 16:08:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:08:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:08:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:08:38 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:08:38 - [TEST_STEP][PASSED] - setText: Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 16:08:38 - [MESSAGE][PASSED] - Text 'sdfg' is set on object 'Object Repository/User require password/Page_ProjectBackend/input_username'
+
+2018-05-09 16:08:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/User require password/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:08:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 16:08:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User require password/Page_ProjectBackend/label_Password is required' are matched.
+
+2018-05-09 16:08:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:08:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login admin" classname="Test Cases/Login admin" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:08:40 - [TEST_CASE][PASSED] - Test Cases/Login admin: Test Cases/Login admin
+
+2018-05-09 16:08:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:08:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:08:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:09:00 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:09:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_username'
+
+2018-05-09 16:09:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_username'
+
+2018-05-09 16:09:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_password'
+
+2018-05-09 16:09:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_password'
+
+2018-05-09 16:09:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login admin/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:09:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-09 16:09:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-09 16:09:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Total Transaction' are matched.
+
+2018-05-09 16:09:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Total Transaction' are matched.
+
+2018-05-09 16:09:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:09:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login page" classname="Test Cases/Login page" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:09:03 - [TEST_CASE][PASSED] - Test Cases/Login page: Test Cases/Login page
+
+2018-05-09 16:09:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:09:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:09:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:09:18 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:09:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login page/Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-09 16:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-09 16:09:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:09:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login user" classname="Test Cases/Login user" status="PASSED">
+         <system-out><![CDATA[2018-05-09 16:09:19 - [TEST_CASE][PASSED] - Test Cases/Login user: Test Cases/Login user
+
+2018-05-09 16:09:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:09:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:09:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:09:56 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-09 16:09:56 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login user/Page_ProjectBackend/input_username'
+
+2018-05-09 16:09:56 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login user/Page_ProjectBackend/input_username'
+
+2018-05-09 16:09:56 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login user/Page_ProjectBackend/input_password'
+
+2018-05-09 16:09:56 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login user/Page_ProjectBackend/input_password'
+
+2018-05-09 16:09:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login user/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login user/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-09 16:09:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login user/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-09 16:09:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login user/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-09 16:09:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login user/Page_ProjectBackend/a_Carts' are matched.
+
+2018-05-09 16:09:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login user/Page_ProjectBackend/a_Carts' are matched.
+
+2018-05-09 16:09:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 16:09:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User require username" classname="Test Cases/User require username" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)"/>
+         <system-out><![CDATA[2018-05-09 16:09:58 - [TEST_CASE][FAILED] - Test Cases/User require username: Test Cases/User require username FAILED because (of) Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+
+2018-05-09 16:09:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:10:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:10:01 - [TEST_STEP][FAILED] - setText: Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+
+2018-05-09 16:10:33 - [MESSAGE][FAILED] - Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+[[ATTACHMENT|C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_160728\\1525857033258.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 16:09:58 - [TEST_CASE][FAILED] - Test Cases/User require username: Test Cases/User require username FAILED because (of) Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User require username" classname="Test Cases/User require username" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)"/>
+         <system-out><![CDATA[2018-05-09 16:10:33 - [TEST_CASE][FAILED] - Test Cases/User require username: Test Cases/User require username FAILED because (of) Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+
+2018-05-09 16:10:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:10:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 16:10:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:10:37 - [TEST_STEP][FAILED] - setText: Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+
+2018-05-09 16:11:09 - [MESSAGE][FAILED] - Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+[[ATTACHMENT|C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_160728\\1525857069200.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 16:10:33 - [TEST_CASE][FAILED] - Test Cases/User require username: Test Cases/User require username FAILED because (of) Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User require username" classname="Test Cases/User require username" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)"/>
+         <system-out><![CDATA[2018-05-09 16:11:09 - [TEST_CASE][FAILED] - Test Cases/User require username: Test Cases/User require username FAILED because (of) Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+
+2018-05-09 16:11:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 16:11:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-09 16:11:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 16:11:12 - [TEST_STEP][FAILED] - setText: Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+
+2018-05-09 16:11:45 - [MESSAGE][FAILED] - Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)
+[[ATTACHMENT|C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_160728\\1525857104727.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 16:11:09 - [TEST_CASE][FAILED] - Test Cases/User require username: Test Cases/User require username FAILED because (of) Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 16:07:30 - [TEST_SUITE][FAILED] - Login user: Test Cases/User require username FAILED because (of) Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-09 16:07:30 - [TEST_SUITE][FAILED] - Login user: Test Cases/User require username FAILED because (of) Unable to set text 'user' of object 'Object Repository/User reqire username/Page_ProjectBackend/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User reqire username/Page_ProjectBackend/input_password' located by 'By.xpath: //input[@name = 'password' and @type = 'password']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login user" time="38" tests="0" failures="1" errors="0">
+   <testsuite name="Login user" tests="0" failures="1" errors="0" time="38" timestamp="2018-05-09 15:26:11" hostname="If - DESKTOP-ESPG549" id="Test Suites/Login user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_152608"/>
+         <property name="logFiles" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_152608\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_152608\\1525854408564.png"/>
+         <property name="hostName" value="If - DESKTOP-ESPG549"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="169.254.218.248"/>
+         <property name="sessionId" value="0af8c18c5771771e58d151ff1c457dd8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User require password" classname="Test Cases/User require password" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'sdfg' of object 'Object Repository/User require password/Page_ProjectBackend/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User require password/Page_ProjectBackend/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-05-09 15:26:12 - [TEST_CASE][FAILED] - Test Cases/User require password: Test Cases/User require password FAILED because (of) Unable to set text 'sdfg' of object 'Object Repository/User require password/Page_ProjectBackend/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User require password/Page_ProjectBackend/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2018-05-09 15:26:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 15:26:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 15:26:16 - [TEST_STEP][FAILED] - setText: Unable to set text 'sdfg' of object 'Object Repository/User require password/Page_ProjectBackend/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User require password/Page_ProjectBackend/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2018-05-09 15:26:49 - [MESSAGE][FAILED] - Unable to set text 'sdfg' of object 'Object Repository/User require password/Page_ProjectBackend/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User require password/Page_ProjectBackend/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180509_152608\\1525854408564.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-09 15:26:12 - [TEST_CASE][FAILED] - Test Cases/User require password: Test Cases/User require password FAILED because (of) Unable to set text 'sdfg' of object 'Object Repository/User require password/Page_ProjectBackend/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User require password/Page_ProjectBackend/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 15:26:11 - [TEST_SUITE][FAILED] - Login user: Test Cases/User require password FAILED because (of) Unable to set text 'sdfg' of object 'Object Repository/User require password/Page_ProjectBackend/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User require password/Page_ProjectBackend/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-09 15:26:11 - [TEST_SUITE][FAILED] - Login user: Test Cases/User require password FAILED because (of) Unable to set text 'sdfg' of object 'Object Repository/User require password/Page_ProjectBackend/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User require password/Page_ProjectBackend/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

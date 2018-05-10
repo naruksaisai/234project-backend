@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login user" time="67" tests="2" failures="2" errors="0">
+   <testsuite name="Login user" tests="2" failures="2" errors="0" time="67" timestamp="2018-05-08 17:55:02" hostname="If - DESKTOP-ESPG549" id="Test Suites/Login user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180508_175500"/>
+         <property name="logFiles" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180508_175500\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180508_175500\\1525776919215.png, C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180508_175500\\1525776935869.png"/>
+         <property name="hostName" value="If - DESKTOP-ESPG549"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="169.254.218.248"/>
+         <property name="sessionId" value="83b6e1c865bf8ef2f574aafee030c930"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login user" classname="Test Cases/Login user" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-08 17:55:03 - [TEST_CASE][FAILED] - Test Cases/Login user: Test Cases/Login user FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-08 17:55:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 17:55:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 17:55:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 17:55:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 17:55:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 17:55:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-08 17:55:19 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-08 17:55:19 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-08 17:55:19 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login user/Page_ProjectBackend (1)/input_password' does not exist
+
+2018-05-08 17:55:19 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-08 17:55:19 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180508_175500\\1525776919215.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-08 17:55:03 - [TEST_CASE][FAILED] - Test Cases/Login user: Test Cases/Login user FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login user" classname="Test Cases/Login user" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-08 17:55:19 - [TEST_CASE][FAILED] - Test Cases/Login user: Test Cases/Login user FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-08 17:55:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 17:55:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 17:55:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 17:55:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 17:55:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 17:55:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 17:55:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-08 17:55:35 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-08 17:55:35 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-08 17:55:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login user/Page_ProjectBackend (1)/input_password' does not exist
+
+2018-05-08 17:55:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-08 17:55:36 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\If\\git\\234project-backend\\Reports\\Login user\\20180508_175500\\1525776935869.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-08 17:55:19 - [TEST_CASE][FAILED] - Test Cases/Login user: Test Cases/Login user FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login admin" classname="Test Cases/Login admin" status="PASSED">
+         <system-out><![CDATA[2018-05-08 17:55:36 - [TEST_CASE][PASSED] - Test Cases/Login admin: Test Cases/Login admin
+
+2018-05-08 17:55:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 17:55:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 17:55:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 17:55:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-08 17:55:54 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-08 17:55:54 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_username'
+
+2018-05-08 17:55:54 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_username'
+
+2018-05-08 17:55:54 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_password'
+
+2018-05-08 17:55:54 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_password'
+
+2018-05-08 17:55:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login admin/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-08 17:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-08 17:55:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-08 17:55:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-08 17:55:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Total Transaction' are matched.
+
+2018-05-08 17:55:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Total Transaction' are matched.
+
+2018-05-08 17:55:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 17:55:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login admin" classname="Test Cases/Login admin" status="PASSED">
+         <system-out><![CDATA[2018-05-08 17:55:57 - [TEST_CASE][PASSED] - Test Cases/Login admin: Test Cases/Login admin
+
+2018-05-08 17:55:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 17:55:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 17:55:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-08 17:56:07 - [MESSAGE][PASSED] - Navigate to 'http://18.188.77.27:8087/' successfully
+
+2018-05-08 17:56:07 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_username'
+
+2018-05-08 17:56:07 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_username'
+
+2018-05-08 17:56:07 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_password'
+
+2018-05-08 17:56:07 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login admin/Page_ProjectBackend/input_password'
+
+2018-05-08 17:56:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login admin/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-08 17:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login admin/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-08 17:56:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-08 17:56:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Products' are matched.
+
+2018-05-08 17:56:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Total Transaction' are matched.
+
+2018-05-08 17:56:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login admin/Page_ProjectBackend/a_Total Transaction' are matched.
+
+2018-05-08 17:56:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 17:56:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 17:55:02 - [TEST_SUITE][FAILED] - Login user: Test Cases/Login user FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-05-08 17:55:02 - [TEST_SUITE][FAILED] - Login user: Test Cases/Login user FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

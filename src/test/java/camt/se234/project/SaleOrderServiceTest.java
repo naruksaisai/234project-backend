@@ -65,7 +65,6 @@ public class SaleOrderServiceTest {
         saleTransactions1.add(new SaleTransaction("T003",
                 new SaleOrder("S001", saleTransactions1),
                 new Product("P001", "Mango", "xxx", "xxx", 100.00), 20));
-        
         mockOrders.add(new SaleOrder("S001", saleTransactions1));
         mockOrders.add(new SaleOrder("T002", saleTransactions1));
         mockOrders.add(new SaleOrder("T003", saleTransactions1));

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login user,Chrome 66.0.3359.139,,2018-05-09 15:26:11,2018-05-09 15:26:50,38.881s,FAILED
+,,,,,,
+Test Cases/User require password,Chrome 66.0.3359.139,,2018-05-09 15:26:12,2018-05-09 15:26:49,37.081s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 15:26:12,2018-05-09 15:26:16,3.787s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 15:26:16,2018-05-09 15:26:49,32.400s,FAILED

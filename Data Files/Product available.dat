@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Product available</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c4a92097-6dde-4314-beb4-0305e919b25b</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Garden The+garden+which+you+can+grow+everything+on+earth</data>
+   <data>Banana A+good+fruit+with+very+cheap+price</data>
+   <data>Orange Nothing+good+about+it</data>
+   <data>Papaya Use+for+papaya+salad</data>
+   <data>Rambutan An+expensive+fruit+from+the+sout</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>type</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>description</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

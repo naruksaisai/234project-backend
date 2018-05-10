@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Total Transaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1a86a76-f7aa-430f-9a72-60a4153db76b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9fa7a79b-9e9e-43b4-9c23-f0e8c9daf0cf</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2909cc65-ca56-42df-a689-e0b7467fe56d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
